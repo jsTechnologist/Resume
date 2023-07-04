@@ -1,0 +1,7 @@
+services:
+    web:
+      image: ghcr.io/code-with-mehdi/php:7.4-apache
+      ports:
+      - 1025:80
+      volumes:
+      - .:/var/www/html:Z

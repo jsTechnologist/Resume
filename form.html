@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <body>
+      <h1  class="head">Resume Form</h1>
+      <div class="div0" style="display:block;">
+        <div style="margin-top: 38px;display: inline-block;">
+      <label for="upload your image">upload your Image:</label>
+      </div>
+       <input type="file"id="upload your image" style="border-radius: 10%;width: 90px;height: 90px;position: absolute;margin: 0px 0 0 0%;">
+      <div id="colorPickerContainer"> 
+       <label for="choose your background-color" id="colorPicker" >choose your background-color:</label>
+       <input type="color" id="changeColor">
+      </div>
+       </div>
+      <form action="resume.php" method="post">
+        <div style="margin: 0 60px 0 4.4%;width: 86.1%;" >
+        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
+        <div class="div1">
+        <label for="firstname" >Firstname:</label>
+        <input tabindex="1" name="firstname" placeholder="text" id="firstname">
+        </div>
+        <div class="div1">
+        <label for="lastname">Lastname:</label>
+        <input  tabindex="2"  name= "lastname"  placeholder="text" id="lastname">
+        </div>
+        <div class="div1">
+        <label for="age">Age:</label>
+        <input  tabindex="3" name="age"  placeholder="number" id="age">
+        </div>
+        <div class="div1">
+        <label for="email">Email:</label>
+        <input  tabindex="4" name="email" placeholder="email" id="email"><a href="https://mail.google.com/mail/"></a>
+      </div>       
+        </div>
+        <br>
+        <div style="display: flex;justify-content: space-between;flex-wrap: wrap;">
+        <div class="div1">
+        <label for="sex">Sex:</label>
+        <input   tabindex="5" name="sex" placeholder="text" id="sex">
+        </div>
+        <div class="div1">
+        <label for="nationality">Nationality:</label>
+        <input  tabindex="6" name="nationality" placeholder="text" id="nationality">
+        </div>
+        <div class="div1">
+        <label for="languages">languages:</label>
+        <input   tabindex="7" name="language" placeholder="text" id="languages">
+        
+        </div>
+        <div class="div1">
+        <label for="course">Courses:</label>
+        <input   tabindex="8" name="course" placeholder="text" id="course">
+       </div>
+       </div>
+       </div>
+        <div class="div2">
+        <label for="intersted">Intersted:</label>
+        <input    tabindex="9" name="intersted" placeholder="text" id="intersted">
+        <label for="skills">skills:</label>
+        <input  tabindex="10" name="skills" placeholder="text"id="skills">
+        <label for="educational experiences">Educational experiences:</label>
+        <input   tabindex="11" name="education" placeholder="text"id="educational experiences">
+        <label for="job experiences">Work experiences:</label>
+        <input    tabindex="12" name="experience" placeholder="text"id="job experiences">
+        <label for="objective">Objectives:</label>
+        <input     tabindex="13" name="objective" placeholder="text" id="objective">
+        <label for="sw">Strengths And Weaknesses:</label>
+        <input   tabindex="14" name="strengths" placeholder="text" id="sw" >
+        </div> 
+        <input type="submit" id="submit">
+        </form>
+        <script>
+           
+
+              let colorInput = document.getElementById('changeColor');
+                // Whenever the user changes the color, the input event will be called.
+                colorInput.addEventListener('input', () =>{
+                document.body.style.backgroundColor = colorInput.value;
+                });
+        </script>
+
+</body>
+
+</html>
+    
+    

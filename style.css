@@ -1,0 +1,188 @@
+body {
+    background-color: yellowgreen;
+    height: 200vh;
+
+}
+
+form {
+    font-size: x-large;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+
+label {
+    margin-left: 150px;
+    color: black;
+}
+
+input {
+    margin-top: 48px;
+    width: 300px;
+    height: 40px;
+    background-color: darkkhaki;
+}
+
+#Age {
+    width: 330px;
+}
+
+#Marital {
+    width: 340px;
+    height: 40px
+}
+
+#courses {
+    width: 275px;
+}
+
+#intersted {
+    width: 1450px;
+    height: 100px;
+    margin-right: 2cm;
+}
+
+#skills {
+    width: 1500px;
+    height: 100px;
+    margin-right: 2cm;
+}
+
+#educational {
+    width: 1280px;
+    height: 100px;
+
+}
+
+#work {
+    width: 1350px;
+    height: 100px;
+    margin-right: 2cm;
+}
+
+#objective {
+    width: 1440px;
+    height: 100px;
+
+}
+
+#image {
+    width: 120px;
+    height: 150px;
+    margin-left: 180px;
+    margin-top: 0px;
+}
+
+label:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+#sw {
+    width: 1250px;
+    height: 100px;
+}
+
+.div1 {
+    position: relative;
+    display: inline-block;
+}
+
+.div1>label {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.div1>input {
+    margin-left: 10px;
+    justify-content: stretch;
+    margin-bottom: 60px;
+
+}
+
+.div2>* {
+    width: 85% !important;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 0px;
+
+}
+
+.div2>input {
+    margin: bottom 10px;
+    margin-top: 10px;
+}
+
+.div2>input {
+    height: 100px !important;
+    margin: 0 0 50px 0;
+    margin-left: 5%;
+}
+
+#color1::-webkit-color-swatch {
+    border: none;
+    border-radius: 0px;
+    padding: 0;
+}
+
+#color1::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.div0 {
+    margin-left: -40px;
+    margin-bottom: 100px;
+}
+
+div1,
+div2 {
+    display: flex;
+
+}
+
+
+div#colorPickerContainer {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    padding-inline-start: 5%;
+    float: right;
+    margin-right: 10%;
+
+}
+
+label#colorPicker {
+
+    font-size:0.7rem;
+    position: inherit;
+    text-align: left;
+    display:flex;
+    margin: auto auto;
+}
+
+
+input#changeColor {
+    border: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 28px;
+    display: inline;
+}
+#submit{
+    margin-left: 8%;
+    width: 70px;
+    height: 70px;
+    margin-top: 0.5px;
+    border-bottom: 50px;
+}
