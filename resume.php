@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-<table id="t2">
+<table>
       <tr>
         <td>Firstname : <?php echo $_POST['firstname'] ?> </td>
       </tr>
@@ -20,7 +20,7 @@
       </tr>
       <tr>
         <td>Nationality : <?php echo$_POST['nationality'] ?></td>
-      </tr>
+      </tr>q
       <tr>
         <td>Languages : <?php echo $_POST['language'] ?></td>
       </tr>
